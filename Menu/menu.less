@@ -7,7 +7,7 @@
   .menu {
     display: none;
     position: fixed;
-    top: 95px;
+    top: 75px;
     left: 0;
     width: 350px;
     height: 100vh; /* This give the height 100% of the screen or, '100% of View Height' */
@@ -16,11 +16,14 @@
     border-left: none;
     border-bottom: none;
     z-index: 2; /* This set the layer level of the element, it has precendence over initial level of 1*/
-  }
+ 
 
   @media @phone {
     background: lightgray;
+    top: 95px;
+
   }
+}
   
   .menu ul li{
     list-style-type: none;

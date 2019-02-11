@@ -55,7 +55,7 @@
 .menu {
   display: none;
   position: fixed;
-  top: 95px;
+  top: 75px;
   left: 0;
   width: 350px;
   height: 100vh;
@@ -68,7 +68,10 @@
   /* This set the layer level of the element, it has precendence over initial level of 1*/
 }
 @media ( max-width: 500px ) {
-  background: lightgray;
+  .menu {
+    background: lightgray;
+    top: 95px;
+  }
 }
 .menu ul li {
   list-style-type: none;
