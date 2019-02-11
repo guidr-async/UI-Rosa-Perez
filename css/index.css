@@ -31,9 +31,21 @@
   top: 0;
   z-index: 2;
 }
+@media ( max-width: 500px ) {
+  .header {
+    background: red;
+    padding: 40px;
+  }
+}
 .header h1 {
   margin: 0;
   font-size: 48px;
+}
+@media ( max-width: 500px ) {
+  .header h1 {
+    color: orange;
+    padding: 40px;
+  }
 }
 .menu-button {
   position: absolute;
@@ -54,6 +66,9 @@
   border-bottom: none;
   z-index: 2;
   /* This set the layer level of the element, it has precendence over initial level of 1*/
+}
+@media ( max-width: 500px ) {
+  background: lightgray;
 }
 .menu ul li {
   list-style-type: none;

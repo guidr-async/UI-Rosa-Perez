@@ -9,10 +9,21 @@
     position: fixed;
     top: 0;
     z-index: 2;
+
+    @media @phone {
+      background: red;
+      padding: 40px;
+
+    }
   
     h1 {
       margin: 0;
       font-size: 48px;
+
+      @media @phone {
+        color: orange;
+        padding: 40px;
+      }
     }
   }
   
