@@ -34,7 +34,7 @@
 @media ( max-width: 500px ) {
   .header {
     background: red;
-    padding: 40px;
+    padding: 10px;
   }
 }
 .header h1 {
@@ -44,7 +44,7 @@
 @media ( max-width: 500px ) {
   .header h1 {
     color: orange;
-    padding: 40px;
+    padding: 80px;
   }
 }
 .menu-button {
@@ -55,7 +55,7 @@
 .menu {
   display: none;
   position: fixed;
-  top: 75px;
+  top: 95px;
   left: 0;
   width: 350px;
   height: 100vh;
