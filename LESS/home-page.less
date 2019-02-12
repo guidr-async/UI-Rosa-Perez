@@ -1,0 +1,45 @@
+ // bottom layout text & image
+
+ .walk {
+    flex-direction: row-reverse;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+    padding: 20px 0;
+    // border: 2px solid greenyellow;
+
+
+    .walk-text {
+      padding: 20px;
+      width: 50%;
+      // border: 2px solid red;
+      @media @phone {
+        width: 100%;
+      } 
+
+      h3 {
+        margin-bottom: 10px;
+        // border: 2px solid red;
+      }
+
+      p {
+        margin-bottom: 26px;
+        // border: 2px solid red;
+      }
+    
+    }
+  }
+
+
+.walk-text2 {
+  width: 50%;
+  border-radius: 2px;
+  overflow: hidden;
+  @media @phone {
+    width: 100%;
+  } 
+  img{
+    width: 98%;
+  }
+}

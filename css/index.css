@@ -1,3 +1,22 @@
+.main-btn {
+  width: 100px;
+  height: 45px;
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 20px 0;
+}
+.main-btn:hover {
+  background-color: white;
+  color: red;
+}
 /* This line is importing the font 'Roboto'. DO NOT change line 2*/
 @font-face {
   font-family: 'Roboto';
