@@ -1,38 +1,32 @@
-// .custom-btn(200px, 45px, gray);
-  
 .center() {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  // .border-radius(10px);
-  .border-radius(@radius) {
-    border-radius: @radius;
-    -webkit-border-radius: @radius;
-    -moz-border-radius: @radius;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-radius(@radius) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
 }
 
 .custom-btn(@width: 300px, @height: 200px, @bgcolor: #cc9759, @font-color: black) {
-    width: @width;
-    height: @height;
-    background-color: @bgcolor;
-    color: @font-color;
-    border: 1px solid black;
-    .border-radius(10px);
-    .center;
-    cursor: pointer;
-    // margin: 20px 0;
-    margin-left: 43%;
-  
-    
-    &:hover {
-      background-color: @font-color;
-      color: @bgcolor;
-    }
+  width: @width;
+  height: @height;
+  background-color: @bgcolor;
+  color: @font-color;
+  border: 1px solid black;
+  .border-radius(10px);
+  .center;
+  cursor: pointer;
+  margin-left: 43%;
+
+  &:hover {
+    background-color: @font-color;
+    color: @bgcolor;
   }
-  
-   
-  .main-btn {
-    .custom-btn(100px, 45px, #930019, #cc9759);
- }
+}
+
+.main-btn {
+  .custom-btn(100px, 45px, #930019, #cc9759);
+}
