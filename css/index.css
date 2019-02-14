@@ -1,5 +1,5 @@
 .main-btn {
-  /* width: 100px; */
+  width: 100px;
   height: 45px;
   background-color: #930019;
   color: #cc9759;
@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  margin: 20px 0;
+  margin-left: 43%;
 }
 .main-btn:hover {
   background-color: #cc9759;
@@ -64,6 +64,7 @@
   .header h1 {
     color: orange;
     padding: 80px;
+    font-size: 1.8rem;
   }
 }
 /* Header Nav */
@@ -93,6 +94,7 @@
   .header h1 {
     color: orange;
     padding: 80px;
+    font-size: 1.8rem;
   }
 }
 /* hamburger menu tabs*/
