@@ -13,12 +13,10 @@
   cursor: pointer;
   margin-left: 43%;
 }
-
 .main-btn:hover {
   background-color: #cc9759;
   color: #930019;
 }
-
 /* This line is importing the font 'Roboto'. DO NOT change line 2*/
 @font-face {
   font-family: 'Roboto';
@@ -26,21 +24,18 @@
   font-weight: 400;
   src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xIIzc.ttf) format('truetype');
 }
-
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
-
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
 }
-
 /* Below this line is where you will start your work */
 /* It is important to note, you will not be writing any CSS in this file*/
 .header {
@@ -55,27 +50,22 @@
   top: 0;
   z-index: 2;
 }
-
-@media (max-width: 500px) {
+@media ( max-width: 500px ) {
   .header {
-    background: red;
-    padding: 10px;
+    background: #4d01;
   }
 }
-
 .header h1 {
   margin: 0;
   font-size: 48px;
 }
-
-@media (max-width: 500px) {
+@media ( max-width: 500px ) {
   .header h1 {
-    color: orange;
     padding: 80px;
-    font-size: 1.8rem;
+    font-size: x-large;
+    padding-right: 1%;
   }
 }
-
 /* Header Nav */
 .header {
   width: 100%;
@@ -89,34 +79,28 @@
   top: 0;
   z-index: 2;
 }
-
 @media (max-width: 500px) {
   .header {
-    background: red;
-    padding: 10px;
+    background: #4d0111;
   }
 }
-
 .header h1 {
   color: #cc9759;
   font-size: 48px;
 }
-
 @media (max-width: 500px) {
   .header h1 {
-    color: orange;
     padding: 80px;
-    font-size: 1.8rem;
+    font-size: x-large;
+    padding-right: 1%;
   }
 }
-
 /* hamburger menu tabs*/
 .menu-button {
   position: absolute;
   left: 20px;
   cursor: pointer;
 }
-
 .menu {
   display: none;
   position: fixed;
@@ -132,19 +116,15 @@
   z-index: 2;
   /* This set the layer level of the element, it has precendence over initial level of 1*/
 }
-
 @media (max-width: 500px) {
   .menu {
-    background: lightgray;
-    top: 95px;
+    background: #70655e;
   }
 }
-
 a {
   color: #cc9759;
   box-sizing: border-box;
 }
-
 .menu ul li {
   list-style-type: none;
   font-size: 1.7rem;
@@ -152,17 +132,14 @@ a {
   text-align: center;
   color: #cc9759;
 }
-
 .menu--open {
   display: block;
 }
-
 .menu--open .menu-button {
   position: absolute;
   left: 20px;
   cursor: pointer;
 }
-
 /* logo */
 .logo {
   padding-top: 10%;
@@ -172,33 +149,27 @@ a {
   text-align: center;
   font-family: arial;
 }
-
 @media (max-width: 500px) {
   .logo {
     background: pink;
     padding-top: 30%;
   }
 }
-
 /* About Styles */
 .about-content {
   margin-left: 20%;
   margin-right: 20%;
 }
-
 .about-content .about-text {
   border-bottom: 1px dotted black;
   padding-bottom: 40px;
   margin-bottom: 20px;
 }
-
 @media (max-width: 500px) {
   .about-content .about-text {
-    color: orange;
     border: 2px solid aqua;
     width: 100%;
   }
-
   html,
   body {
     margin: 0;
@@ -207,7 +178,6 @@ a {
     background-color: #fffef7;
   }
 }
-
 html,
 body {
   margin: 0;
