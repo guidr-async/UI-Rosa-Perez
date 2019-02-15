@@ -12,22 +12,20 @@
   <div class="header">
     <img class="menu-button" src="./assets/menu.png" />
     <h1>Welcome to Guidr</h1>
-    <!-- Todo change color of header to #cc9759 -->
   </div>
 
   <div class="menu">
     <ul>
       <li><a class="dropdown-link" href="index.html" target="_blank">Home</a></li>
       <li><a class="dropdown-link" href="about.html" target="_blank">About Us</a></li>
-      <!-- <li><a class="dropdown-link" href="https://lambdaschool.com/" target="_blank">Contact Us</a></li> -->
-      <li><a class="dropdown-link" href="https://guidr-frontend-sam.netlify.com/" target="_blank">Log In</a></li>
+      <li><a class="dropdown-link" href="https://guidr-frontend-sam.netlify.com/">Log In</a></li>
 
     </ul>
   </div>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <div class="slideshow"> -->
 
+  <!-- <div class="slideshow"> -->
   <style>
     * {
       color: #cc9759;
@@ -153,7 +151,9 @@
         slides[i].style.display = "none";
       }
       slideIndex++;
-      if (slideIndex > slides.length) { slideIndex = 1 }
+      if (slideIndex > slides.length) {
+        slideIndex = 1
+      }
       for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
       }
@@ -177,4 +177,5 @@
   </div>
   </div>
 </body>
+
 </html>
